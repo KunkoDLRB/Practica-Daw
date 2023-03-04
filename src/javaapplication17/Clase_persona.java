@@ -27,9 +27,7 @@ public class Clase_persona {
      * Creo una variable para la clase.
      * @return String es el tipo que se devuelve 
      */
-    public String getNombre(){
-    return this.Nombre;
-    }
+    
    
     public void setEdad(int Edad){
     this.Edad=Edad;
