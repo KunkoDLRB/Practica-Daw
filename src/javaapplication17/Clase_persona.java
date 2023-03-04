@@ -14,6 +14,7 @@ public class Clase_persona {
      * @param Nombre es el nombre de la variable
      */
     private String Nombre;
+    private int Edad;
     
     /**
      * Creo una variable para la clase.
@@ -28,5 +29,9 @@ public class Clase_persona {
      */
     public String getNombre(){
     return this.Nombre;
+    }
+   
+    public void setEdad(int Edad){
+    this.Edad=Edad;
     }
 }
